@@ -9,8 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions(features="src/test/Resources/Features",
 				glue="com.Cucumberframework.StepDef",						
-				plugin = {"pretty","html:target/Htmlreports/reports.html"},
-				dryRun =true
+				plugin = {"pretty","html:target/Htmlreports/reports.html"}
 				)
 
 
